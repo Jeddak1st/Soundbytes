@@ -1,0 +1,17 @@
+/* Temporary sample blog layout. */
+.food-stories{padding:48px 0;border-top:1px solid var(--line)}
+.food-stories h2{font-size:clamp(2rem,4vw,3rem);line-height:1.1;margin:18px 0}
+.food-story{max-width:780px;padding:28px;border:1px solid var(--line);border-radius:18px;background:#111}
+.food-story h3{font-size:clamp(1.5rem,3vw,2rem);line-height:1.2;margin:12px 0}
+.food-story p{color:#ccc;margin:16px 0 22px}
+.food-story-label,.blog-meta{color:#ff7900;font-weight:700}
+.blog-back{color:#ff7900;font-weight:700;flex-shrink:0}
+.blog-article{width:min(780px,calc(100% - 40px));margin:56px auto 72px}
+.blog-article h1{font-size:clamp(2.25rem,5vw,3.75rem);line-height:1.08;letter-spacing:-1px;margin:24px 0}
+.blog-deck{font-size:1.25rem;color:#ccc}
+.blog-article article>p{font-size:1.125rem;line-height:1.8;color:#ddd}
+.blog-article h2{font-size:1.75rem;line-height:1.2;margin:36px 0 16px}
+.blog-sample{padding:20px;border-left:3px solid #ff7900;background:#19110b;margin:30px 0;line-height:1.6}
+.blog-article-footer{margin-top:40px;padding-top:24px}
+.blog-article-footer p{color:#ccc}
+@media(max-width:620px){.blog-back{font-size:.9rem}.food-story{padding:22px}}
