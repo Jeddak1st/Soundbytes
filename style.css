@@ -75,3 +75,6 @@
 .event-teaser-link{display:inline-block;margin-top:8px;font-weight:700}
 @media(max-width:900px){.events-preview-grid{grid-template-columns:1fr}}
 @media(max-width:620px){.calendar-panel,.featured-event{padding:18px}.calendar-days li{min-height:50px;padding:6px 2px}.calendar-event a{min-height:50px}.calendar-weekdays,.calendar-days{gap:4px}.events-calendar,.featured-event{scroll-margin-top:100px}}
+
+/* Studio banner photograph */
+.studio-art{display:flex;align-items:center;justify-content:center;overflow:hidden}.studio-image{display:block;width:100%;height:100%;object-fit:contain}
